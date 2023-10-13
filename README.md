@@ -5,9 +5,16 @@ Aplikasi Point of Sale ini adalah aplikasi manajemen penjualan dan inventaris ya
 ## Fitur Utama
 
 - **Manajemen Produk:** Tambahkan, edit, dan hapus produk dari inventaris.
-- **Manajemen Penjualan:** Buat, edit, dan hapus transaksi penjualan.
+- **Manajemen Penjualan:** Buat dan edit transaksi penjualan.
+- **Manajemen Pembelian:** Buat dan edit transaksi pembelian.
 - **Pelaporan:** Lihat laporan penjualan dan statistik inventaris.
 - **Otentikasi:** Sistem otentikasi pengguna untuk mengakses aplikasi.
+
+### Fitur Tambahan
+
+- **Cetak Nota Besar dan Kecil:** Aplikasi ini memungkinkan Anda untuk mencetak nota transaksi dalam format besar dan kecil untuk keperluan pencatatan dan pelacakan.
+- **Cetak Kartu Member:** Fitur ini memungkinkan Anda untuk mencetak kartu member yang dapat digunakan oleh pelanggan untuk mendapatkan diskon khusus atau keuntungan lainnya.
+- **Cetak Barcode Produk:** Aplikasi ini mendukung pencetakan barcode produk untuk membantu dalam manajemen inventaris dan penjualan.
 
 ## Teknologi Utama
 
@@ -28,3 +35,4 @@ Aplikasi Point of Sale ini adalah aplikasi manajemen penjualan dan inventaris ya
 
    ```shell
    git clone https://github.com/Aditw5/Point_of_sale.git
+

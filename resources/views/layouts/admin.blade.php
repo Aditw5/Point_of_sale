@@ -152,6 +152,7 @@
               </p>
             </a>
           </li>
+          @role('admin')
           <li class="nav-header">MASTER</li>
           <li class="nav-item">
             <a href="{{url('categorys')}}" class="nav-link {{ request()->is('categorys') ? 'active' : '' }}">
@@ -185,6 +186,7 @@
               </p>
             </a>
           </li>
+          @endrole
           <li class="nav-header">TRANSACTION</li>
           <li class="nav-item">
             <a href="{{url('expenditures')}}" class="nav-link {{ request()->is('expenditures') ? 'active' : '' }}">
@@ -218,6 +220,7 @@
               </p>
             </a>
           </li>
+          @role('admin')
           <li class="nav-header">REPORT</li>
           <li class="nav-item">
             <a href="{{url('report')}}" class="nav-link {{ request()->is('report') ? 'active' : '' }}">
@@ -227,6 +230,7 @@
               </p>
             </a>
           </li>
+          @endrole
 
           
           

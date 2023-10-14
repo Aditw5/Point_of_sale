@@ -8,6 +8,8 @@ use App\Models\Purchase;
 use App\Models\Sale;
 use App\Models\User;
 use Illuminate\Http\Request;
+use Spatie\Permission\Models\Permission;
+use Spatie\Permission\Models\Role;
 
 class HomeController extends Controller
 {
@@ -23,21 +25,21 @@ class HomeController extends Controller
 
     public function test_spatie()
     {
-        // $role = Role::create(['name' => 'writer']);
-        // $permission = Permission::create(['name' => 'index Transaction']);
+        // $role = Role::create(['name' => 'admin']);
+        // $permission = Permission::create(['name' => 'View Menu']);
 
         // $role->givePermissionTo($permission);
         // $permission->assignRole($role);
 
         // $user = auth()->user();
-        // $user->assignRole('writer');
+        // $user->assignRole('admin');
 
-        // $user = User::with('roles')->get();
+        $user = User::with('roles')->get();
 
         // $user = User::where('id', 4)->first();
         // $user->removeRole('writer');
 
-        // return $user;
+        return $user;
     }
 
     /**

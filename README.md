@@ -1,30 +1,37 @@
-# Aplikasi Point of Sale
+# Point of Sale Application
 
-Aplikasi Point of Sale ini adalah aplikasi manajemen penjualan dan inventaris yang dibangun menggunakan Laravel dan Vue.js. Aplikasi ini memungkinkan Anda untuk melakukan berbagai tindakan seperti menambahkan produk, mengelola penjualan, dan melacak stok inventaris.
+This Point of Sale application is a sales and inventory management system built using Laravel and Vue.js. This application allows you to perform various actions such as adding products, managing sales, and tracking inventory.
 
-## Fitur Utama
+## Key Features
 
-- **Manajemen Produk:** Tambahkan, edit, dan hapus produk dari inventaris.
-- **Manajemen Penjualan:** Buat, edit, dan hapus transaksi penjualan.
-- **Pelaporan:** Lihat laporan penjualan dan statistik inventaris.
-- **Otentikasi:** Sistem otentikasi pengguna untuk mengakses aplikasi.
+- **Product Management:** Add, edit, and remove products from inventory.
+- **Sales Management:** Create and edit sales transactions.
+- **Purchase Management:** Create and edit purchase transactions.
+- **Reporting:** View sales reports and inventory statistics.
+- **Authentication:** User authentication system to access the application.
 
-## Teknologi Utama
+### Additional Features
 
-- [Laravel](https://laravel.com): Framework PHP untuk sisi server.
-- [Vue.js](https://vuejs.org): Framework JavaScript untuk sisi klien.
-- [MySQL](https://www.mysql.com): Basis data untuk menyimpan informasi.
+- **Print Large and Small Receipts:** This application allows you to print sales receipts in both large and small formats for record-keeping and tracking purposes.
+- **Print Membership Cards:** This feature enables you to print membership cards that customers can use to get special discounts or other benefits.
+- **Print Product Barcodes:** The application supports printing product barcodes to assist in inventory and sales management.
 
-## Prasyarat
+## Core Technologies
 
-- PHP versi 7.4 atau lebih tinggi.
-- Composer untuk mengelola dependensi PHP.
-- Node.js dan npm untuk mengelola dependensi JavaScript.
+- [Laravel](https://laravel.com): PHP framework for the server-side.
+- [Vue.js](https://vuejs.org): JavaScript framework for the client-side.
+- [MySQL](https://www.mysql.com): Database system for data storage.
+
+## Prerequisites
+
+- PHP version 7.4 or higher.
+- Composer to manage PHP dependencies.
+- Node.js and npm to manage JavaScript dependencies.
 - MySQL database.
 
-## Instalasi
+## Installation
 
-1. Clone repositori ini ke komputer Anda:
+1. Clone this repository to your computer:
 
    ```shell
    git clone https://github.com/Aditw5/Point_of_sale.git

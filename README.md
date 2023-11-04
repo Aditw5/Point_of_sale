@@ -2,6 +2,8 @@
 
 This Point of Sale application is a sales and inventory management system built using Laravel and Vue.js. This application allows you to perform various actions such as adding products, managing sales, and tracking inventory.
 
+Admin: Email: jj@gmail.com Password: 12345678 User/Client: Email: refia@gmail.com Password: adit0510
+
 ## Key Features
 
 - **Product Management:** Add, edit, and remove products from inventory.
